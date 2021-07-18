@@ -582,23 +582,20 @@ body {
 }
 
 /*フォントの導入*/
-/* @font-face kit by Fonts2u (https://fonts2u.com) M+1m boldの導入*/
-@font-face {font-family:"M+ 1m bold";src:url("mplus-1m-bold.eot?") format("eot"),url("mplus-1m-bold.woff") format("woff"),url("mplus-1m-bold.ttf") format("truetype"),url("mplus-1m-bold.svg#mplus-1m-bold") format("svg");font-weight:normal;font-style:normal;}
-/* @font-face kit by Fonts2u (https://fonts2u.com) M+1m regularの導入*/ 
-@font-face {font-family:"M+ 1m regular";src:url("mplus-1m-regular.eot?") format("eot"),url("mplus-1m-regular.woff") format("woff"),url("mplus-1m-regular.ttf") format("truetype"),url("mplus-1m-regular.svg#mplus-1m-regular") format("svg");font-weight:normal;font-style:normal;}
+
 /* Robotoフォントの導入 */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 //サイトの基本設定
 
-//幅
-$width-base: 1024px; //全体
-$width-main: 820px;  //メインエリアの幅
-$width-side: 204px;  //サイドバーの幅
+//フォント
+$font-base:'M PLUS 1p', sans-serif,'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica;
+$font-skill:'Roboto','M PLUS 1p', sans-serif,'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica;
 
 //ブレイクポイント
 $breakpoints: (
     //sp:"only screen and (max-width:749)",スマートフォン　スマホファーストなら必要ない気もするが・・・？
-    tb:"only screen and (min-width:768px)",//タブレット
-    pc:"only screen and (min-width:1024px)",//PC
+    tbpc:"only screen and (min-width:768px)",//タブレット・PC
+    //pc:"only screen and (min-width:1024px)",
 )
+；

@@ -5,18 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
-    <title>test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;400;700&display=swap" rel="stylesheet">
+    <title>asken～Webサイト制作はaskenにお任せください</title>
 </head>
 <body>
-    <header>
+    <header class="l-header">
         <!--header背景画像-->
-        <div class="l-header__backgroundImage">
+        <div class="p-header__backgroundImage">
             <h1 class="p-header__title">askne</h1>
         </div>
     </header>
     <!--コンテンツ部分の両端の余白-->
     <div class="l-main--margin">
-    </div>
         <!--askneについて-->
         <section class="p-aboutSite__content">
             <div class="p-aboutSite__backgroundImage">
@@ -28,15 +30,157 @@
                     <p>LP（ランディングページ）・プロモーションサイト<br>WordPress（オリジナルテーマ・既存データカスタマイズ）<br>他にもお客様の課題に合った形式のWebサイトを提案させていただきます</p>
                     <p>askneの由来はask（尋ねる・頼む）+ne（ね）。<br>悩んでいることを何でも相談してねという意味を込めました。</p>
                 </div>
-                <img class="p-aboutSite__image--top">
+                <img class="p-aboutSite__image--top" src="image/abousite_top_img.jpg" alt="相談している製作者とお客様">
             </div>
             <!--思い描いているゴール・・・の部分-->
             <div class="p-aboutSite__wrapper--middle">
-                <img class="p-aboutSite__image--middle">
+                <img class="p-aboutSite__image--middle" src="image/aboutsite_middle.jpg" alt="目標に対するゴール">
+                <div class="p-aboutSite__box__blank"></div>
                 <div class="p-aboutSite__text--middle">
                     <p>思い描いているゴールがあると思います。<br>その形ははっきりしないかもしれません。<br>はっきりしていなくても大丈夫です。<br>なんでも相談してください。<br>相談していく中で考え方が整理出来ていきます。</p>
                 </div>
             </div>
         </section>
+        <section class="p-service__wrapper">
+            <h2 class="p-service__heading">制作特徴</h2>
+            <div class="p-service__backgroundImage">
+                <!--文字部分とイラスト部分-->
+                <div class="p-service__container">
+                    <!--文字を出すときにアニメーションにする？-->
+                    <ul class="p-service__text">
+                        <li>HTMLタグの正確な仕様でSEO対策</li>
+                        <li>レスポンシブ対応（スマートフォン向けのコーディング）可能！</li>
+                        <li>動きのあるWebサイト制作も承ります！</li>
+                        <li>Githubを使用したバージョン管理の実施！</li>
+                        <li>アニメーションを使って動きのあるサイト制作も！</li>
+                        <li>FLOCSSに準じたCSS設計でメンテナンス性の高いコーディング！</li>
+                    </ul>
+                    <img class="p-service__image" src="image/Service.jpg" alt="説明する女性">
+                </div>
+                <!--グリッドで実装-->
+                <div clsass="p-service__skillImage__wrapper">
+                    <div class="p-service__skillImage--box">
+                        <p class="p-service__skillImage--text">HMTL Living standard</p>
+                        <img class="p-service__skillImage--ICON" src="image/HTML5.png" alt="HTMLのアイコン">
+                    </div>
+                    <div class="p-service__skillImage--box">
+                        <p class="p-service__skillImage--text">CSS3</p>
+                        <img class="p-service__skillImage--ICON" src="image/CSS3.png" alt="CSSのアイコン">
+                    </div>
+                    <div class="p-service__skillImage--box">
+                        <p class="p-service__skillImage--text">CSSC</p>
+                        <img class="p-service__skillImage--ICON" src="image/SCSS.png" alt="SCSSのアイコン">
+                    </div>
+                    <div class="p-service__skillImage--box">
+                        <p class="p-service__skillImage--text">FLOCSS</p>
+                        <img class="p-service__skillImage--ICON" src="image/FLOCSS.png" alt="FLOCSSのアイコン">
+                    </div>
+                    <div class="p-service__skillImage--box">
+                        <p class="p-service__skillImage--text">jQuery</p>
+                        <img class="p-service__skillImage--ICON" src="image/jQuery.png" alt="jQueryのアイコン">
+                    </div>
+                    <div class="p-service__skillImage--box">
+                        <p class="p-service__skillImage--text">Responsive</p>
+                        <img class="p-service__skillImage--ICON" src="image/jQuery.png" alt="スマートフォン・タブレット・PCのアイコン">
+                    </div>
+                    <div class="p-service__skillImage--box">
+                        <p class="p-service__skillImage--text">WordPress</p>
+                        <img class="p-service__skillImage--ICON" src="image/WordPress.png" alt="WordPressのアイコン">
+                    </div>
+                    <div class="p-service__skillImage--box">
+                        <p class="p-service__skillImage--text">GitHub</p>
+                        <img class="p-service__skillImage--ICON" src="image/WordPress.png" alt="GitHubのアイコン">
+                    </div>
+                <!--グリッド部分終了-->
+                </div>
+            </div>
+        </section>
+        <!--制作実績-->
+        <section class="p-work">
+            <h2 class="p-work__heading">制作実績</h2>
+            <div class="p-work__container">
+                <!--ハンバーガーサイト-->
+                <div class="p-work-box">
+                    <a href="http://raisetech-hamburger.com/"><img src="image/hambureger-site.jpg" alt="ハンバーガーサイトのスクリーンショット"></a>
+                    <p>ハンバーガーサイト（デモサイト）</p>
+                </div>
+                <div class="p-work-box">
+                    <a href="http://askneportfolio.com/"><img src="image/hambureger-site.jpg" alt="当サイトのスクリーンショット"></a>
+                    <p>当サイト</p>
+                </div>
+            </div>
+            <div class="p-work__backgroundImage"></div>
+        </section>
+        <!--about me部分-->
+        <section class="p-profile">
+            <h2 class="p-profile__heading">About&nbsp;me</h2>
+            <div class="p-profile__backgroundImage">
+                <div class="p-profile__container">
+                    <p class="profile__info">制作者：narumi<br><br>2020年10月よりWeb制作の学習を開始<br>お客様の問題解決が目的であり、Webサイト制作は<br>その手段の1つでしかないという考えから<br>お客様へのヒアリングを特に大事にしている</p>
+                    <img class="profile__image" alt="製作者のイメージ画像">
+                </div>
+                <!--sns・GitHubへのリンク-->
+                <div class="profile__icon--wrapper">
+                    <a href="https://twitter.com/narumi13329161"><img class="profile__icon" src="image/Twitter-logo-blue.png" alt="Twitterアイコン"></a>
+                    <a href="https://github.com/"><img class="profile__icon" src="image/GitHub-Mark-32px.png" alt="GitHubアイコン"></a>
+                </div>
+            </div>
+        </section>
+        <!--料金表-->
+        <section class="p-price">
+            <h2 class="p-price__heading">料金表</h2>
+            <div class="p-price__backgroundImage">
+            <table>
+                <thead class="p-price__table--header">
+                    <tr>
+                        <th colspan="2">マークアップ&amp;コーディング</th>
+                    </tr>
+                </thead>
+                <tbody class="p-price__table--body">
+                    <tr>
+                        <td class="p-price__table__category--topPage">トップページ</td>
+                        <td class="p-price__table__price--topPage">30,000円～</td>
+                    </tr>
+                    <tr>
+                        <td class="p-price__table--category--subPage">下層ページ(1p)</td>
+                        <td class="p-price__table__price--subPage">30,000円～</td>
+                    </tr>
+                    <tr>
+                        <td class="p-price__table__category--landingPage"> ランディングページ</td>
+                        <td class="p-price__table__price--landingPage">50,000円～</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td class="p-price__table__category--WordPress">WordPress実装(コーディング含まず)</td>
+                        <td class="p-price__table--price--WordPress">100,000円～</td>
+                    </tr>
+                </tfoot>
+            </table>
+                <thead class="p-price__table--header">
+                    <tr>
+                        <th colspan="2">デザイン</th>
+                    </tr>
+                </thead>
+                <tbody class="p-price__table--body">
+                    <tr>
+                        <td class="p-price__table__category--design">デザイン料(外部デザイナー様へ委託)</td>
+                        <td class="p-price__table__price--design">100,000円～</td>
+                    </tr>
+                </tbody>
+                <p class="p-price__info">マークアップ&amp;コーディング・デザイン共に税抜き価格を表示しております。</p>
+            </div>
+        </section>
+        <!--お問い合わせ-->
+        <section class="p-contact">
+            <h2 class="p-contact__heading">お問い合わせ</h2>
+            <div class="p-contact__backgroundImage">
+                <p>プラグインで実装</p>                
+            </div>
+        </section>
+    </div>
+    <footer class="p-footer">
+        <p class="p-footer__copyright">copyright&nbsp;&#169;narumi&nbsp;2021</p>
+    </footer>     
 </body>
 </html>
