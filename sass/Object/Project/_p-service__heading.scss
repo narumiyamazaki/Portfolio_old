@@ -1,0 +1,30 @@
+.p-service__heading {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    font-family: $font-base;
+    position: relative;
+    &::before {
+        content:"";
+        display: inline-block;
+        //nの長さが400.359pxと412.719pxとの差なので、12.36pxの文字と線の間隔
+        width: 42.4%;
+        height: .2rem;
+        background-color: #c0c0c0;
+        position: absolute;
+        left: 0%;
+        top: 50%;
+    }
+    &::after {
+        content:"";
+        display: inline-block;
+        //文字と線の間はwidth 2rem分
+        width: 42.4%;
+        height: .2rem;
+        background-color: #c0c0c0;
+        position: absolute;
+        left: 57.5%;
+        top: 50%;
+    }
+}
