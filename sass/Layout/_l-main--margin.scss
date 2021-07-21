@@ -1,3 +1,6 @@
 .l-main--margin {
     margin: 6rem;
+    @include media(sp) {
+        margin: 3rem;
+    }
 }

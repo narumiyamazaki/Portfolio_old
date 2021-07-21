@@ -1,3 +1,6 @@
 .p-aboutSite__image--top {
     width: 40%;
+    @include media(sp) {
+        width: 100%;
+    }
 }

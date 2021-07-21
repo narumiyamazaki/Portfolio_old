@@ -1,4 +1,7 @@
 .p-aboutSite__wrapper--top {
     display:flex;
     margin-top: 2rem;
+    @include media(sp) {
+        display: block;
+    }
 }

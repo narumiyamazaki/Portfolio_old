@@ -594,7 +594,7 @@ $font-skill:'Roboto','M PLUS 1p', sans-serif,'Hiragino Kaku Gothic ProN', 'ヒ�
 
 //ブレイクポイント
 $breakpoints: (
-    //sp:"only screen and (max-width:749)",スマートフォン　スマホファーストなら必要ない気もするが・・・？
+    sp:"only screen and (max-width:767px)",//スマートフォン
     tb:"only screen and (min-width:768px)",//タブレット
-    pc:"only screen and (min-width:1024px)",
-)；
+    //pc:"only screen and (min-width:1024px)",PCファーストなのでPCのブレークポイントは不要
+);
