@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;400;700&display=swap" rel="stylesheet">
     <title>asken～Webサイト制作はaskenにお任せください</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
 </head>
 <body>
     <header class="l-header">
@@ -59,38 +61,38 @@
                     <img class="p-service__image" src="image/Service.jpg" alt="説明する女性">
                 </div>
                 <!--グリッドで実装-->
-                <div clsass="p-service__skillImage__wrapper">
-                    <div class="p-service__skillImage--box">
-                        <p class="p-service__skillImage--text">HMTL Living standard</p>
-                        <img class="p-service__skillImage--ICON" src="image/HTML5.png" alt="HTMLのアイコン">
+                <div class="p-service__skillImage__container">
+                    <div class="p-service__skillBox--HTML">
+                        <p class="p-service__skillText">HMTL Living standard</p>
+                        <img class="p-service__skillImage" src="image/HTML5.png" alt="HTMLのアイコン">
                     </div>
-                    <div class="p-service__skillImage--box">
-                        <p class="p-service__skillImage--text">CSS3</p>
-                        <img class="p-service__skillImage--ICON" src="image/CSS3.png" alt="CSSのアイコン">
+                    <div class="p-service__skillBox--CSS3">
+                        <p class="p-service__skillText">CSS3</p>
+                        <img class="p-service__skillImage" src="image/CSS3.png" alt="CSSのアイコン">
                     </div>
-                    <div class="p-service__skillImage--box">
-                        <p class="p-service__skillImage--text">CSSC</p>
-                        <img class="p-service__skillImage--ICON" src="image/SCSS.png" alt="SCSSのアイコン">
+                    <div class="p-service__skillBox--SCSS">
+                        <p class="p-service__skillText">SCSS</p>
+                        <img class="p-service__skillImage--SCSS" src="image/SCSS.png" alt="SCSSのアイコン">
                     </div>
-                    <div class="p-service__skillImage--box">
-                        <p class="p-service__skillImage--text">FLOCSS</p>
-                        <img class="p-service__skillImage--ICON" src="image/FLOCSS.png" alt="FLOCSSのアイコン">
+                    <div class="p-service__skillBox--FLOCSS">
+                        <p class="p-service__skillText">FLOCSS</p>
+                        <img class="p-service__skillImage" src="image/FLOCSS.png" alt="FLOCSSのアイコン">
                     </div>
-                    <div class="p-service__skillImage--box">
-                        <p class="p-service__skillImage--text">jQuery</p>
-                        <img class="p-service__skillImage--ICON" src="image/jQuery.png" alt="jQueryのアイコン">
+                    <div class="p-service__skillBox--jQuery">
+                        <p class="p-service__skillText">jQuery</p>
+                        <img class="p-service__skillImage" src="image/jQuery.png" alt="jQueryのアイコン">
                     </div>
-                    <div class="p-service__skillImage--box">
-                        <p class="p-service__skillImage--text">Responsive</p>
-                        <img class="p-service__skillImage--ICON" src="image/jQuery.png" alt="スマートフォン・タブレット・PCのアイコン">
+                    <div class="p-service__skillBox--Responsive">
+                        <p class="p-service__skillText">Responsive</p>
+                        <img class="p-service__skillImage" src="image/Responsive.png" alt="スマートフォン・タブレット・PCのアイコン">
                     </div>
-                    <div class="p-service__skillImage--box">
-                        <p class="p-service__skillImage--text">WordPress</p>
-                        <img class="p-service__skillImage--ICON" src="image/WordPress.png" alt="WordPressのアイコン">
+                    <div class="p-service__skillBox--WordPress">
+                        <p class="p-service__skillText">WordPress</p>
+                        <img class="p-service__skillImage" src="image/WordPress.png" alt="WordPressのアイコン">
                     </div>
-                    <div class="p-service__skillImage--box">
-                        <p class="p-service__skillImage--text">GitHub</p>
-                        <img class="p-service__skillImage--ICON" src="image/WordPress.png" alt="GitHubのアイコン">
+                    <div class="p-service__skillBox--GitHub">
+                        <p class="p-service__skillText">GitHub</p>
+                        <img class="p-service__skillImage" src="image/GitHub-Mark-120px-plus.png" alt="GitHubのアイコン">
                     </div>
                 <!--グリッド部分終了-->
                 </div>
@@ -182,6 +184,12 @@
     </div>
     <footer class="p-footer">
         <p class="p-footer__copyright">copyright&nbsp;&#169;narumi&nbsp;2021</p>
-    </footer>     
+    </footer>
+    <script>
+        $(function (){
+          objectFitImages()
+        });
+      </script>
+    <script src="js/ofi.min.js"></script>     
 </body>
 </html>

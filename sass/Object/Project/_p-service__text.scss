@@ -1,0 +1,11 @@
+.p-service__text {
+    >li {
+        font-size: 2rem;
+        @include media(tb) {
+            font-size: 1.5rem;
+        }
+        @include media(sp) {
+            font-size: 1.4rem;
+        }
+    }
+}

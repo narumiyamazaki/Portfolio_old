@@ -1,3 +1,6 @@
 .p-aboutSite__image--middle {
-    width: 100%;
+    width: 40%;
+    @include media(sp) {
+        width: 100%;
+    }
 }

@@ -1,0 +1,6 @@
+.p-service__container {
+    display: flex;
+    @include media(sp) {
+        display: block;
+    }
+}

@@ -5,5 +5,11 @@
         font-size: 1.75rem;
         margin-top: 0;
         margin-bottom: 0;
+        @include media(tb) {
+            font-size: 1.4rem;
+        }
+        @include media(sp) {
+            font-size: 1.35rem;
+        }
     }
 }

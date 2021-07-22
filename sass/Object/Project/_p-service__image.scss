@@ -1,0 +1,6 @@
+.p-service__image {
+    width: 40%;
+    @include media(sp) {
+        display: none;
+    }
+}
