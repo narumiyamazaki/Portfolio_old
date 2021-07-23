@@ -598,3 +598,6 @@ $breakpoints: (
     tb:"only screen and (min-width:768px)",//タブレット
     //pc:"only screen and (min-width:1024px)",PCファーストなのでPCのブレークポイントは不要
 );
+
+//gridのwidth
+$grid-width: 90%;

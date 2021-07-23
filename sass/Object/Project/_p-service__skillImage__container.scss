@@ -1,6 +1,8 @@
 .p-service__skillImage__container {
     margin-top: 4rem;
     align-items: center;
+    margin: 2rem 2rem 0 2rem;
+    padding-bottom: 2rem;
     //gridプロパティ
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -9,5 +11,11 @@
     grid-column-gap: 10rem;
     grid-template-areas:
         "HTML CSS3 SCSS FLOCSS"
-        "jQuery Responsive WordPress GitHub"
+        "jQuery Responsive WordPress GitHub";
+        @include media(tb) {
+            grid-column-gap: 9rem;
+        }
+        @include media(sp) {
+            grid-column-gap: 2rem;
+        }
 }
