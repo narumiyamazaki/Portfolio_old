@@ -1,0 +1,6 @@
+.p-work--hamburger {
+    margin-right: 2rem;
+    @include media(sp){
+        margin-bottom: 2rem;
+    }
+}

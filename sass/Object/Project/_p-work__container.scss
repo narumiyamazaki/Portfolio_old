@@ -1,0 +1,6 @@
+.p-work__container {
+    display: flex;
+    @include media(sp){
+        display: block;
+    }
+}

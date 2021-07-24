@@ -1,0 +1,11 @@
+.p-work--introduction {
+    font-family: $font-base;
+    font-size: 2rem;
+    text-align: center;
+    @include media(tb) {
+        font-size: 1.5rem;
+    }
+    @include media(sp) {
+        font-size: 1.5rem;
+    }
+}

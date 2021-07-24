@@ -1,0 +1,9 @@
+.p-profile__info {
+    font-size: 2rem;
+    @include media(tb) {
+        font-size: 1.3rem;
+    }
+    @include media(sp) {
+        font-size: 1.3rem;
+    }
+}

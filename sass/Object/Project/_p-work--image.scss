@@ -1,0 +1,12 @@
+.p-work--image {
+    width: 45rem;
+    max-width: 70rem;
+    @include media(tb) {
+        width: 25rem;
+        max-width: 27rem;
+    }
+    @include media(sp) {
+        width: 30rem;
+        max-width: 30rem;
+    }
+}

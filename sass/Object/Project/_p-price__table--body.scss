@@ -1,0 +1,12 @@
+.p-price__table--body {
+   & > tr > td {
+      font-size: 1.5rem;
+      width:50rem;
+      max-width: 70rem;
+      text-align: left;
+      padding-left: 3rem;
+      border-bottom: solid;
+      border-color: #c0c0c0;
+      border-width: .2rem;
+   }
+}

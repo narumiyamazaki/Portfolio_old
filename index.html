@@ -58,6 +58,7 @@
                         <li>アニメーションを使って動きのあるサイト制作も！</li>
                         <li>FLOCSSに準じたCSS設計でメンテナンス性の高いコーディング！</li>
                     </ul>
+                    <div class="p-aboutSite__box__blank"></div>
                     <img class="p-service__image" src="image/Service.jpg" alt="説明する女性">
                 </div>
                 <!--グリッドで実装-->
@@ -109,28 +110,29 @@
             <h2 class="p-work__heading">制作実績</h2>
             <div class="p-work__container">
                 <!--ハンバーガーサイト-->
-                <div class="p-work-box">
-                    <a href="http://raisetech-hamburger.com/"><img src="image/hambureger-site.jpg" alt="ハンバーガーサイトのスクリーンショット"></a>
-                    <p>ハンバーガーサイト（デモサイト）</p>
+                <div class="p-work--box--hamburger">
+                    <a class="p-work--link" href="http://raisetech-hamburger.com/"><img class="p-work--image" src="image/hambureger-site.jpg" alt="ハンバーガーサイトのスクリーンショット"></a>
+                    <p class="p-work--introduction">ハンバーガーサイト（デモサイト）</p>
                 </div>
-                <div class="p-work-box">
-                    <a href="http://askneportfolio.com/"><img src="image/hambureger-site.jpg" alt="当サイトのスクリーンショット"></a>
-                    <p>当サイト</p>
+                <div class="p-work--box--portfolio">
+                    <a class="p-work--link" href="http://askneportfolio.com/"><img class="p-work--image" src="image/hambureger-site.jpg" alt="当サイトのスクリーンショット"></a>
+                    <p class="p-work--introduction">当サイト</p>
                 </div>
+                <div class="p-work__backgroundImage"></div>
             </div>
-            <div class="p-work__backgroundImage"></div>
         </section>
         <!--about me部分-->
         <section class="p-profile">
             <h2 class="p-profile__heading">About&nbsp;me</h2>
             <div class="p-profile__backgroundImage">
                 <div class="p-profile__container">
-                    <p class="profile__info">制作者：narumi<br><br>2020年10月よりWeb制作の学習を開始<br>お客様の問題解決が目的であり、Webサイト制作は<br>その手段の1つでしかないという考えから<br>お客様へのヒアリングを特に大事にしている</p>
-                    <img class="profile__image" alt="製作者のイメージ画像">
+                    <p class="p-profile__info">制作者：narumi<br><br>2020年10月よりWeb制作の学習を開始<br>お客様の問題解決が目的であり、Webサイト制作は<br>その手段の1つでしかないという考えから<br>お客様へのヒアリングを特に大事にしている</p>
+                    <div class="p-aboutSite__box__blank"></div>
+                    <img class="p-profile__image" src="image/about_me_img.jpg" alt="製作者のイメージ画像">
                 </div>
                 <!--sns・GitHubへのリンク-->
                 <div class="profile__icon--wrapper">
-                    <a href="https://twitter.com/narumi13329161"><img class="profile__icon" src="image/Twitter-logo-blue.png" alt="Twitterアイコン"></a>
+                    <a href="https://twitter.com/narumi13329161"><img class="p-profile__icon" src="image/Twitter-logo-blue.png" alt="Twitterアイコン"></a>
                     <a href="https://github.com/"><img class="profile__icon" src="image/GitHub-Mark-32px.png" alt="GitHubアイコン"></a>
                 </div>
             </div>
@@ -151,7 +153,8 @@
                         <td class="p-price__table__price--topPage">30,000円～</td>
                     </tr>
                     <tr>
-                        <td class="p-price__table--category--subPage">下層ページ(1p)</td>
+                        <!--下層ページやランディングページのスタイルはエクステンドを使用-->
+                        <td class="p-price__table__category--subPage">下層ページ(1p)</td>
                         <td class="p-price__table__price--subPage">30,000円～</td>
                     </tr>
                     <tr>
