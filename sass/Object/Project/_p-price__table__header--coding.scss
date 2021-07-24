@@ -1,4 +1,4 @@
-.p-price__table--header {
+.p-price__table__header--coding {
    border-top: solid;
    border-bottom: solid;
    border-color: #c0c0c0;
@@ -9,5 +9,7 @@
       max-width: 120rem;
       text-align: left;
       padding-left: 3rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
    }
 }

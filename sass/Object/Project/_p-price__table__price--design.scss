@@ -1,6 +1,5 @@
-.p-price__table__price--topPage {
-      padding-top: 3rem;
-      font-size: 1.5rem;
+.p-price__table__price--design {
+      @extend %p-price__table__category--subPage;
       text-align: right;
       padding-right: 10rem;
       @include media(sp){

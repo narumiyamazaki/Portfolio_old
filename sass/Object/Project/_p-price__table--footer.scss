@@ -1,4 +1,4 @@
-.p-price__table--body {
+.p-price__table--footer {
    & > tr > td {
       font-size: 1.5rem;
       width:50rem;
@@ -7,7 +7,6 @@
       border-bottom: solid;
       border-color: #c0c0c0;
       border-width: .2rem;
-      padding-top: 3rem;
       @include media(sp) {
          font-size: 1.3rem;
       }

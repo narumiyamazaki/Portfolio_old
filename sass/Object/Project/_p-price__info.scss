@@ -1,0 +1,9 @@
+.p-price__info {
+   padding-left: 3rem;
+   font-size: 1.2rem;
+   font-family: $font-base;
+   @include media(sp) {
+      font-size: 1rem;
+      padding-right: 3rem;
+   }
+}
