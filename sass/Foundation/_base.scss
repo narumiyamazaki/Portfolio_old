@@ -594,9 +594,9 @@ $font-skill:'Roboto','M PLUS 1p', sans-serif,'Hiragino Kaku Gothic ProN', 'ヒ�
 
 //ブレイクポイント
 $breakpoints: (
+    pc:"only screen and (min-width:1024px)",//PCファーストなのでPCのブレークポイントは不要
+    tb:"only screen and (min-width:768px) and (max-width:1023px)",//タブレット
     sp:"only screen and (max-width:767px)",//スマートフォン
-    tb:"only screen and (min-width:768px)",//タブレット
-    //pc:"only screen and (min-width:1024px)",PCファーストなのでPCのブレークポイントは不要
 );
 
 //gridのwidth

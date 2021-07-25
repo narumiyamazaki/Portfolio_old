@@ -12,6 +12,8 @@
       padding-top: 2rem;
       padding-top: 1rem;
       padding-bottom: 1rem;
-      text-align: center;
+         @include media(sp) {
+         text-align: center;
+      }
    }
 }
