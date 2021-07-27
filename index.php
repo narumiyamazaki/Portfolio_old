@@ -1,22 +1,11 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;400;700&display=swap" rel="stylesheet">
-    <title>asken～Webサイト制作はaskenにお任せください</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    
-</head>
+<?php get_header(); ?>
 <body>
     <header class="l-header">
         <!--header背景画像-->
         <div class="p-header__backgroundImage">
-            <h1 class="p-header__title">askne</h1>
+            <h1 class="p-header__title">
+                <a href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
+            </h1>
         </div>
     </header>
     <!--コンテンツ部分の両端の余白-->
@@ -31,11 +20,11 @@
                         <p>LP（ランディングページ）・プロモーションサイト<br>WordPress（オリジナルテーマ・既存データカスタマイズ）<br>他にもお客様の課題に合った形式のWebサイトを提案させていただきます。</p><br>
                         <p>askneの由来はask（尋ねる・頼む）+ne（ね）。<br>悩んでいることを何でも相談してねという意味を込めました。</p>
                     </div>
-                    <img class="p-aboutSite__image--top" src="image/abousite_top_img.jpg" alt="相談している製作者とお客様">
+                    <img class="p-aboutSite__image--top" src="<?php echo get_template_directory_uri(); ?>/image/abousite_top_img.jpg" alt="相談している製作者とお客様">
                 </div>
                 <!--思い描いているゴール・・・の部分-->
                 <div class="p-aboutSite__wrapper--middle">
-                    <img class="p-aboutSite__image--middle" src="image/aboutsite_middle.jpg" alt="目標に対するゴール">
+                    <img class="p-aboutSite__image--middle" src="<?php echo get_template_directory_uri(); ?>/image/aboutsite_middle.jpg" alt="目標に対するゴール">
                     <div class="p-aboutSite__box__blank"></div>
                     <div class="p-aboutSite__text--middle">
                         <p>思い描いているゴールがあると思います。<br>その形ははっきりしないかもしれません。<br></p><br>
@@ -59,47 +48,47 @@
                         <li>FLOCSSに準じたCSS設計でメンテナンス性の高いコーディング！</li>
                     </ul>
                     <div class="p-aboutSite__box__blank"></div>
-                    <img class="p-service__image" src="image/Service.jpg" alt="説明する女性">
+                    <img class="p-service__image" src="<?php echo get_template_directory_uri(); ?>/image/Service.jpg" alt="説明する女性">
                 </div>
                 <!--グリッドで実装-->
                 <div class="p-service__skillImage__container">
                     <div class="p-service__skillBox--HTML">
                         <p class="p-service__skillText">HMTL5</p>
-                        <img class="p-service__skillImage--HTML" src="image/HTML5.png" alt="HTMLのアイコン">
+                        <img class="p-service__skillImage--HTML" src="<?php echo get_template_directory_uri(); ?>/image/HTML5.png" alt="HTMLのアイコン">
                     </div>
                     <div class="p-service__skillBox--CSS3">
                         <div class="p-service__skillText__container">
                             <p class="p-service__skillText">CSS3</p>
                         </div>
-                        <img class="p-service__skillImage--CSS3" src="image/CSS3.png" alt="CSSのアイコン">
+                        <img class="p-service__skillImage--CSS3" src="<?php echo get_template_directory_uri(); ?>/image/CSS3.png" alt="CSSのアイコン">
                     </div>
                     <div class="p-service__skillBox--SCSS">
                         <div class="p-service__skillText__container">
                             <p class="p-service__skillText">SCSS</p>
                         </div>
-                        <img class="p-service__skillImage--SCSS" src="image/SCSS.png" alt="SCSSのアイコン">
+                        <img class="p-service__skillImage--SCSS" src="<?php echo get_template_directory_uri(); ?>/image/SCSS.png" alt="SCSSのアイコン">
                     </div>
                     <div class="p-service__skillBox--FLOCSS">
                         <div class="p-service__skillText__container">
                             <p class="p-service__skillText">FLOCSS</p>
                         </div>
-                        <img class="p-service__skillImage--FLOCSS" src="image/FLOCSS.png" alt="FLOCSSのアイコン">
+                        <img class="p-service__skillImage--FLOCSS" src="<?php echo get_template_directory_uri(); ?>/image/FLOCSS.png" alt="FLOCSSのアイコン">
                     </div>
                     <div class="p-service__skillBox--jQuery">
                         <p class="p-service__skillText">jQuery</p>
-                        <img class="p-service__skillImage--jQuery" src="image/jQuery.png" alt="jQueryのアイコン">
+                        <img class="p-service__skillImage--jQuery" src="<?php echo get_template_directory_uri(); ?>/image/jQuery.png" alt="jQueryのアイコン">
                     </div>
                     <div class="p-service__skillBox--Responsive">
                         <p class="p-service__skillText">Responsive</p>
-                        <img class="p-service__skillImage--Responsive" src="image/Responsive.png" alt="スマートフォン・タブレット・PCのアイコン">
+                        <img class="p-service__skillImage--Responsive" src="<?php echo get_template_directory_uri(); ?>/image/Responsive.png" alt="スマートフォン・タブレット・PCのアイコン">
                     </div>
                     <div class="p-service__skillBox--WordPress">
                         <p class="p-service__skillText">WordPress</p>
-                        <img class="p-service__skillImage--WordPress" src="image/WordPress.png" alt="WordPressのアイコン">
+                        <img class="p-service__skillImage--WordPress" src="<?php echo get_template_directory_uri(); ?>/image/WordPress.png" alt="WordPressのアイコン">
                     </div>
                     <div class="p-service__skillBox--GitHub">
                         <p class="p-service__skillText">GitHub</p>
-                        <img class="p-service__skillImage--GitHub" src="image/GitHub-Mark-120px-plus.png" alt="GitHubのアイコン">
+                        <img class="p-service__skillImage--GitHub" src="<?php echo get_template_directory_uri(); ?>/image/GitHub-Mark-120px-plus.png" alt="GitHubのアイコン">
                     </div>
                 <!--グリッド部分終了-->
                 </div>
@@ -110,12 +99,12 @@
             <h2 class="p-work__heading">制作実績</h2>
             <div class="p-work__container">
                 <!--ハンバーガーサイト-->
-                <div class="p-work--box--hamburger">
-                    <a class="p-work--link" href="http://raisetech-hamburger.com/"><img class="p-work--image" src="image/hambureger-site.jpg" alt="ハンバーガーサイトのスクリーンショット"></a>
+                <div class="p-work__box--hamburger">
+                    <a class="p-work--link" href="http://raisetech-hamburger.com/"><img class="p-work--image" src="<?php echo get_template_directory_uri(); ?>/image/hambureger-site.jpg" alt="ハンバーガーサイトのスクリーンショット"></a>
                     <p class="p-work--introduction">ハンバーガーサイト（デモサイト）</p>
                 </div>
                 <div class="p-work--box--portfolio">
-                    <a class="p-work--link" href="http://askneportfolio.com/"><img class="p-work--image" src="image/hambureger-site.jpg" alt="当サイトのスクリーンショット"></a>
+                    <a class="p-work--link" href="http://askneportfolio.com/"><img class="p-work--image" src="<?php echo get_template_directory_uri(); ?>/image/hambureger-site.jpg" alt="当サイトのスクリーンショット"></a>
                     <p class="p-work--introduction">当サイト</p>
                 </div>
                 <div class="p-work__backgroundImage"></div>

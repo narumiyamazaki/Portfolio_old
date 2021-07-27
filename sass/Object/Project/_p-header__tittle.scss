@@ -1,7 +1,12 @@
-.p-header__title{
+.p-header__title {
+    text-align: center;
+   & > a{
     width: 100%;
     text-align: center;
     font-size: 4rem;
     margin: 0;
     font-family: $font-base;
+    text-decoration: none;
+    color: #000;
+    }
 }
