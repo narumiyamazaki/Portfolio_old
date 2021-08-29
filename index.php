@@ -178,7 +178,14 @@
         <section class="p-contact">
             <h2 class="p-contact__heading">お問い合わせ</h2>
             <div class="p-contact__backgroundImage">
-                <p>プラグインで実装</p>                
+            <!--固定ページのスラッグからURLを取得-->
+            <?php
+            $page_data = get_page_by_path('contact');
+            $page_id = $page_data -> ID;
+            $page_title = apply_filters( 'the_title', $page_data->post_title );
+            echo '<a href="';
+            echo get_permalink( $page_id );
+            echo '" >'.$page_title.'</a>'; ?>
             </div>
         </section>
     </div>
