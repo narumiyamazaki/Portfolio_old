@@ -117,12 +117,12 @@
                 <div class="p-profile__container">
                     <p class="p-profile__info">制作者：narumi<br><br>2020年10月よりWeb制作の学習を開始<br>お客様の問題解決が目的であり、Webサイト制作は<br>その手段の1つでしかないという考えから<br>お客様へのヒアリングを特に大事にしている</p>
                     <div class="p-aboutSite__box__blank"></div>
-                    <img class="p-profile__image" src="image/about_me_img.jpg" alt="製作者のイメージ画像">
+                    <img class="p-profile__image" src="<?php echo get_template_directory_uri(); ?>/image/about_me_img.jpg" alt="製作者のイメージ画像">
                 </div>
                 <!--sns・GitHubへのリンク-->
                 <div class="profile__icon--wrapper">
-                    <a href="https://twitter.com/narumi13329161"><img class="p-profile__icon" src="image/Twitter-logo-blue.png" alt="Twitterアイコン"></a>
-                    <a href="https://github.com/"><img class="profile__icon" src="image/GitHub-Mark-32px.png" alt="GitHubアイコン"></a>
+                    <a href="https://twitter.com/narumi13329161"><img class="p-profile__icon" src="<?php echo get_template_directory_uri(); ?>/image/Twitter-logo-blue.png" alt="Twitterアイコン"></a>
+                    <a href="https://github.com/"><img class="profile__icon" src="<?php echo get_template_directory_uri(); ?>/image/GitHub-Mark-32px.png" alt="GitHubアイコン"></a>
                 </div>
             </div>
         </section>
