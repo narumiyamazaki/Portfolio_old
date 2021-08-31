@@ -178,7 +178,21 @@
         <section class="p-contact">
             <h2 class="p-contact__heading">お問い合わせ</h2>
             <div class="p-contact__backgroundImage">
-            <!--固定ページのスラッグからURLを取得-->
+            <!--フォーム
+            <label> 氏名
+            [text* your-name] </label>
+
+            <label> メールアドレス
+            [email* your-email] </label>
+
+            <label> 題名
+            [text* your-subject] </label>
+
+            <label> メッセージ本文 (任意)
+            [textarea your-message] </label>
+
+            [submit "送信"]
+            -->
             <?php
                $page_data = get_page_by_path('contact'); $page = get_post($page_data);
                $content = $page -> post_content;
