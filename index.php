@@ -180,11 +180,11 @@
             <div class="p-contact__backgroundImage">
             <!--固定ページのスラッグからURLを取得-->
             <?php
-            $page_data = get_page_by_path('contact'); $page = get_post($page_data);
-            $content = $page -> post_content;
-            //本文を表示（自動整形含む）
-            echo apply_filters('the_content', $content); 
-            ?>
+               $page_data = get_page_by_path('contact'); $page = get_post($page_data);
+               $content = $page -> post_content;
+               //本文を表示（自動整形含む）
+               echo apply_filters('the_content', $content); 
+               ?>
             </div>
         </section>
     </div>
