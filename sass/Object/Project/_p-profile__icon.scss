@@ -1,7 +1,4 @@
-.p-profile__image {
-    width: 30%;
+.p-profile__icon {
+    width: 3rem;
     height: auto;
-    @include media(sp) {
-        width: 50%;
-    }
 }

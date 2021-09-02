@@ -1,0 +1,8 @@
+.p-profile__image {
+    width: 30%;
+    height: auto;
+    @include media(sp) {
+        width: 50%;
+        display: none;
+    }
+}

@@ -11,7 +11,7 @@
     <!--コンテンツ部分の両端の余白-->
     <div class="l-main--margin">
         <!--askneについて-->
-        <section class="p-aboutSite__content">
+        <section id="pagetop" class="p-aboutSite__content">
             <div class="p-aboutSite__backgroundImage">
                 <h2 class="p-aboutSite__heading">Webサイト制作はaskneにお任せください</h2>  
                 <!--LP・・・の部分-->
@@ -33,7 +33,7 @@
                 </div>
             </div>
         </section>
-        <section class="p-service__wrapper">
+        <section id="service" class="p-service__wrapper">
             <h2 class="p-service__heading">制作特徴</h2>
             <div class="p-service__backgroundImage">
                 <!--文字部分とイラスト部分-->
@@ -95,7 +95,7 @@
             </div>
         </section>
         <!--制作実績-->
-        <section class="p-work">
+        <section class="p-work" id="work">
             <h2 class="p-work__heading">制作実績</h2>
             <div class="p-work__container">
                 <!--ハンバーガーサイト-->
@@ -111,7 +111,7 @@
             </div>
         </section>
         <!--about me部分-->
-        <section class="p-profile">
+        <section id="profile" class="p-profile">
             <h2 class="p-profile__heading">About&nbsp;me</h2>
             <div class="p-profile__backgroundImage">
                 <div class="p-profile__container">
@@ -127,7 +127,7 @@
             </div>
         </section>
         <!--料金表-->
-        <section class="p-price">
+        <section id="price" class="p-price">
             <h2 class="p-price__heading">料金表</h2>
             <div class="p-price__backgroundImage">
             <table>
@@ -174,8 +174,8 @@
             <p class="p-price__info">マークアップ&amp;コーディング・デザイン共に税抜き価格を表示しております。</p>
             </div>
         </section>
-        <!--お問い合わせ-->
-        <section class="p-contact">
+        <!--お問い合わせ reCHAPTCHA-->
+        <section id="contact" class="p-contact">
             <h2 class="p-contact__heading">お問い合わせ</h2>
             <div class="p-contact__backgroundImage">
             <!--フォーム
@@ -203,6 +203,22 @@
         </section>
     </div>
     <footer class="p-footer">
+        <ul class="p-footer__menu">
+            <li>
+                <a href="#pagetop">
+            <li>
+            <li>
+                <a href="#service">
+            </li>
+            <li>
+                <a href="#work">
+            </li>
+            <li>
+                <a href="#profile">
+            <li>
+            <li>
+                <a href="#price">
+            </li>           
         <p class="p-footer__copyright">copyright&nbsp;&#169;narumi&nbsp;2021</p>
     </footer>
     <script>

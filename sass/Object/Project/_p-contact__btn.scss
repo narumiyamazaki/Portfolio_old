@@ -1,0 +1,22 @@
+.p-contact__btn {
+    text-align: center;
+    & input{
+        width: 70%;
+        height: 3rem;
+        background-color: #005513;
+        color: #FFF;
+        font-size: 1.1em;
+        font-weight: bold;
+        letter-spacing: 0.2em;
+        border: 1px solid #005513;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        -ms-transition: 0.3s;
+        transition: 0.3s; 
+    }
+    & input :hover{
+        background-color: #FFF;
+	    color: #005513
+    }
+}

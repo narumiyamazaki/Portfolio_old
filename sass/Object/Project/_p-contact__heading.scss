@@ -20,7 +20,7 @@
             width:35.4%;
         }
         @include media(sp) {
-            width:28.4%;
+            width:20.4%;
         }
     }
     &::after {
@@ -38,8 +38,8 @@
             left: 64.5%;
         }
         @include media(sp) {
-            width:28.4%;
-            left: 72.5%;
+            width:20.4%;
+            left: 79.5%;
         }
     }
 }
