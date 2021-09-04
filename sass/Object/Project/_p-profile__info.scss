@@ -1,5 +1,6 @@
 .p-profile__info {
     font-size: 2rem;
+    width:50%;
     @include media(tb) {
         font-size: 1.3rem;
     }

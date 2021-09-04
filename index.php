@@ -1,5 +1,14 @@
 <?php get_header(); ?>
 <body>
+    <!--アニメーション部分-->
+    <div class="p-loading">
+        <div class="p-loadingAnimation">
+            <!-- .loading-circle -->
+            <div class="p-loadingCircle"></div>
+            <p>Now Loading...</p>
+        </div><!-- #animation -->
+    </div><!-- #loading -->
+    <!--ローディング画面後の表示-->
     <header class="l-header">
         <!--header背景画像-->
         <div class="p-header__backgroundImage">
@@ -33,6 +42,7 @@
                 </div>
             </div>
         </section>
+        <!--制作特徴-->
         <section id="service" class="p-service__wrapper">
             <h2 class="p-service__heading">制作特徴</h2>
             <div class="p-service__backgroundImage">
@@ -48,7 +58,9 @@
                         <li>FLOCSSに準じたCSS設計でメンテナンス性の高いコーディング！</li>
                     </ul>
                     <div class="p-aboutSite__box__blank"></div>
+                    <!--
                     <img class="p-service__image" src="<?php echo get_template_directory_uri(); ?>/image/Service.jpg" alt="説明する女性">
+                    -->
                 </div>
                 <!--グリッドで実装-->
                 <div class="p-service__skillImage__container">
@@ -206,7 +218,7 @@
         <ul class="p-footer__menu">
             <li>
                 <a href="#pagetop">TOP</a>
-            <li>
+            </li>
             <li>
                 <a href="#service">Service</a>
             </li>
@@ -215,7 +227,7 @@
             </li>
             <li>
                 <a href="#profile">Profile</a>
-            <li>
+            </li>
             <li>
                 <a href="#price">Price</a>
             </li>

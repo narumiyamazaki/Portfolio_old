@@ -1,0 +1,38 @@
+//flushというアニメーション名
+@keyframes flush{
+    0%{
+      opacity: 0;
+    }
+    25%{
+      opacity: 0.5;
+    }
+    50%{
+      opacity: 1;
+    }
+    75%{
+      opacity: 0.5;
+    }
+    100%{
+      opacity: 0;
+    }
+  }
+
+.p-loadingAnimation {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    /*flush・・・animation-name...アニメーション名
+      1s・・・animation-duration...アニメーションが始まってから終わるまでの時間
+      linear・・・animation-timing-function...アニメーションの進行度合いを指定
+      infinite・・・animation-iteration-count...アニメーションの繰り返し回数を指定
+    */
+      animation: flush 1s linear 0s infinite;
+      & p{
+        color: #fff;
+        font-size: 1.5rem;
+      }
+}
+

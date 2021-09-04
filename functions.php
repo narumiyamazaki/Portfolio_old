@@ -9,6 +9,7 @@
         wp_enqueue_style('gstatic','https://fonts.gstatic.com');
         wp_enqueue_style('style', get_template_directory_uri().'/style.css');
         wp_enqueue_script('jQuery','https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js');
+        wp_enqueue_script('loading',get_template_directory_uri().'/js/loading.js');
     } 
     add_action( 'wp_enqueue_scripts', 'portfolioSite_script' );
 ?>

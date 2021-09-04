@@ -1,0 +1,14 @@
+.p-loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    //画面いっぱいに表示させるための100vw
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    //ローディングアニメーションを後で前に出すために襲襲値
+    z-index: 9000;
+    @include media(sp) {
+        font-size: 1.5rem;
+    }
+}
