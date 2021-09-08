@@ -1,6 +1,8 @@
 <?php
     //テーマサポート
-    add_theme_support('menus'); 
+    //メニューの追加
+    register_nav_menus();
+    add_theme_support( 'title-tag' );
 
     //ファイル読み込み
     function portfolioSite_script() {

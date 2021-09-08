@@ -1158,7 +1158,8 @@ body {
   grid-row-gap: 4rem;
   grid-column-gap: 10rem;
   display: grid;
-  grid-template-areas: "HTML CSS3 SCSS FLOCSS" "jQuery Responsive WordPress GitHub";
+  grid-template-areas: "HTML CSS3 SCSS FLOCSS"
+ "jQuery Responsive WordPress GitHub";
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   align-items: center;

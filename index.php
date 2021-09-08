@@ -29,11 +29,11 @@
                         <p>LP（ランディングページ）・プロモーションサイト<br>WordPress（オリジナルテーマ・既存データカスタマイズ）<br>他にもお客様の課題に合った形式のWebサイトを提案させていただきます。</p><br>
                         <p>askneの由来はask（尋ねる・頼む）+ne（ね）。<br>悩んでいることを何でも相談してねという意味を込めました。</p>
                     </div>
-                    <img class="p-aboutSite__image--top" src="<?php echo get_template_directory_uri(); ?>/image/abousite_top_img.jpg" alt="相談している製作者とお客様">
+                    <img class="p-aboutSite__image--top" src="<?php echo esc_url(get_template_directory_uri()."/image/abousite_top_img.jpg"); ?>" alt="相談している製作者とお客様">
                 </div>
                 <!--思い描いているゴール・・・の部分-->
                 <div class="p-aboutSite__wrapper--middle">
-                    <img class="p-aboutSite__image--middle" src="<?php echo get_template_directory_uri(); ?>/image/aboutsite_middle.jpg" alt="目標に対するゴール">
+                    <img class="p-aboutSite__image--middle" src="<?php echo esc_url(get_template_directory_uri()."/image/aboutsite_middle.jpg"); ?>" alt="目標に対するゴール">
                     <div class="p-aboutSite__box__blank"></div>
                     <div class="p-aboutSite__text--middle">
                         <p>思い描いているゴールがあると思います。<br>その形ははっきりしないかもしれません。<br></p><br>
@@ -59,48 +59,48 @@
                     </ul>
                     <div class="p-aboutSite__box__blank"></div>
                     <!--
-                    <img class="p-service__image" src="<?php echo get_template_directory_uri(); ?>/image/Service.jpg" alt="説明する女性">
+                    <img class="p-service__image" src="-- <php echo esc_url(get_template_directory_uri()."/image/Service.jpg"); ?>" alt="説明する女性">
                     -->
                 </div>
                 <!--グリッドで実装-->
                 <div class="p-service__skillImage__container">
                     <div class="p-service__skillBox--HTML">
                         <p class="p-service__skillText">HMTL5</p>
-                        <img class="p-service__skillImage--HTML" src="<?php echo get_template_directory_uri(); ?>/image/HTML5.png" alt="HTMLのアイコン">
+                        <img class="p-service__skillImage--HTML" src="<?php echo esc_url(get_template_directory_uri()."/image/HTML5.png"); ?>" alt="HTMLのアイコン">
                     </div>
                     <div class="p-service__skillBox--CSS3">
                         <div class="p-service__skillText__container">
                             <p class="p-service__skillText">CSS3</p>
                         </div>
-                        <img class="p-service__skillImage--CSS3" src="<?php echo get_template_directory_uri(); ?>/image/CSS3.png" alt="CSSのアイコン">
+                        <img class="p-service__skillImage--CSS3" src="<?php echo esc_url(get_template_directory_uri()."/image/CSS3.png"); ?>" alt="CSSのアイコン">
                     </div>
                     <div class="p-service__skillBox--SCSS">
                         <div class="p-service__skillText__container">
                             <p class="p-service__skillText">SCSS</p>
                         </div>
-                        <img class="p-service__skillImage--SCSS" src="<?php echo get_template_directory_uri(); ?>/image/SCSS.png" alt="SCSSのアイコン">
+                        <img class="p-service__skillImage--SCSS" src="<?php echo esc_url(get_template_directory_uri()."/image/SCSS.png"); ?>" alt="SCSSのアイコン">
                     </div>
                     <div class="p-service__skillBox--FLOCSS">
                         <div class="p-service__skillText__container">
                             <p class="p-service__skillText">FLOCSS</p>
                         </div>
-                        <img class="p-service__skillImage--FLOCSS" src="<?php echo get_template_directory_uri(); ?>/image/FLOCSS.png" alt="FLOCSSのアイコン">
+                        <img class="p-service__skillImage--FLOCSS" src="<?php echo esc_url(get_template_directory_uri()."/image/FLOCSS.png"); ?>" alt="FLOCSSのアイコン">
                     </div>
                     <div class="p-service__skillBox--jQuery">
                         <p class="p-service__skillText">jQuery</p>
-                        <img class="p-service__skillImage--jQuery" src="<?php echo get_template_directory_uri(); ?>/image/jQuery.png" alt="jQueryのアイコン">
+                        <img class="p-service__skillImage--jQuery" src="<?php echo esc_url(get_template_directory_uri()."/image/jQuery.png"); ?>" alt="jQueryのアイコン">
                     </div>
                     <div class="p-service__skillBox--Responsive">
                         <p class="p-service__skillText">Responsive</p>
-                        <img class="p-service__skillImage--Responsive" src="<?php echo get_template_directory_uri(); ?>/image/Responsive.png" alt="スマートフォン・タブレット・PCのアイコン">
+                        <img class="p-service__skillImage--Responsive" src="<?php echo esc_url(get_template_directory_uri()."/image/Responsive.png"); ?>" alt="スマートフォン・タブレット・PCのアイコン">
                     </div>
                     <div class="p-service__skillBox--WordPress">
                         <p class="p-service__skillText">WordPress</p>
-                        <img class="p-service__skillImage--WordPress" src="<?php echo get_template_directory_uri(); ?>/image/WordPress.png" alt="WordPressのアイコン">
+                        <img class="p-service__skillImage--WordPress" src="<?php echo esc_url(get_template_directory_uri()."/image/WordPress.png"); ?>" alt="WordPressのアイコン">
                     </div>
                     <div class="p-service__skillBox--GitHub">
                         <p class="p-service__skillText">GitHub</p>
-                        <img class="p-service__skillImage--GitHub" src="<?php echo get_template_directory_uri(); ?>/image/GitHub-Mark-120px-plus.png" alt="GitHubのアイコン">
+                        <img class="p-service__skillImage--GitHub" src="<?php echo esc_url(get_template_directory_uri()."/image/GitHub-Mark-120px-plus.png"); ?>" alt="GitHubのアイコン">
                     </div>
                 <!--グリッド部分終了-->
                 </div>
@@ -112,11 +112,11 @@
             <div class="p-work__container">
                 <!--ハンバーガーサイト-->
                 <div class="p-work__box--hamburger">
-                    <a class="p-work--link" href="http://raisetech-hamburger.com/"><img class="p-work--image" src="<?php echo get_template_directory_uri(); ?>/image/hambureger-site.jpg" alt="ハンバーガーサイトのスクリーンショット"></a>
+                    <a class="p-work--link" href="http://raisetech-hamburger.com/"><img class="p-work--image" src="<?php echo esc_url(get_template_directory_uri()."/image/hambureger-site.jpg"); ?>" alt="ハンバーガーサイトのスクリーンショット"></a>
                     <p class="p-work--introduction">ハンバーガーサイト（デモサイト）</p>
                 </div>
                 <div class="p-work--box--portfolio">
-                    <a class="p-work--link" href="http://askneportfolio.com/"><img class="p-work--image" src="<?php echo get_template_directory_uri(); ?>/image/hambureger-site.jpg" alt="当サイトのスクリーンショット"></a>
+                    <a class="p-work--link" href="http://askneportfolio.com/"><img class="p-work--image" src="<?php echo esc_url(get_template_directory_uri()."/image/hambureger-site.jpg"); ?>" alt="当サイトのスクリーンショット"></a>
                     <p class="p-work--introduction">当サイト</p>
                 </div>
                 <div class="p-work__backgroundImage"></div>
@@ -129,12 +129,12 @@
                 <div class="p-profile__container">
                     <p class="p-profile__info">制作者：narumi<br><br>2020年10月よりWeb制作の学習を開始<br>お客様の問題解決が目的であり、Webサイト制作は<br>その手段の1つでしかないという考えから<br>お客様へのヒアリングを特に大事にしている</p>
                     <div class="p-aboutSite__box__blank"></div>
-                    <img class="p-profile__image" src="<?php echo get_template_directory_uri(); ?>/image/about_me_img.jpg" alt="製作者のイメージ画像">
+                    <img class="p-profile__image" src="<?php echo esc_url(get_template_directory_uri()."/image/about_me_img.jpg"); ?>" alt="製作者のイメージ画像">
                 </div>
                 <!--sns・GitHubへのリンク-->
                 <div class="profile__icon--wrapper">
-                    <a href="https://twitter.com/narumi13329161"><img class="p-profile__icon" src="<?php echo get_template_directory_uri(); ?>/image/Twitter-logo-blue.png" alt="Twitterアイコン"></a>
-                    <a href="https://github.com/"><img class="profile__icon" src="<?php echo get_template_directory_uri(); ?>/image/GitHub-Mark-32px.png" alt="GitHubアイコン"></a>
+                    <a href="https://twitter.com/narumi13329161"><img class="p-profile__icon" src="<?php echo esc_url(get_template_directory_uri()."/image/Twitter-logo-blue.png"); ?>" alt="Twitterアイコン"></a>
+                    <a href="https://github.com/"><img class="profile__icon" src="<?php echo esc_url(get_template_directory_uri()."/image/GitHub-Mark-32px.png"); ?>" alt="GitHubアイコン"></a>
                 </div>
             </div>
         </section>
@@ -205,6 +205,7 @@
 
             [submit "送信"]
             -->
+            <!--固定ページ（お問合せフォーム）表示-->
             <?php
                $page_data = get_page_by_path('contact'); $page = get_post($page_data);
                $content = $page -> post_content;
@@ -214,34 +215,3 @@
             </div>
         </section>
     </div>
-    <footer class="p-footer">
-        <ul class="p-footer__menu">
-            <li>
-                <a href="#pagetop">TOP</a>
-            </li>
-            <li>
-                <a href="#service">Service</a>
-            </li>
-            <li>
-                <a href="#work">Work</a>
-            </li>
-            <li>
-                <a href="#profile">Profile</a>
-            </li>
-            <li>
-                <a href="#price">Price</a>
-            </li>
-            <li>
-                <a href="#price">Contact</a>
-            </li>
-        </ul>      
-        <p class="p-footer__copyright">copyright&nbsp;&#169;narumi&nbsp;2021</p>
-    </footer>
-    <script>
-        $(function (){
-          objectFitImages()
-        });
-      </script>
-    <script src="js/ofi.min.js"></script>     
-</body>
-</html>
