@@ -21,5 +21,6 @@
         </ul>      
         <p class="p-footer__copyright">copyright&nbsp;&#169;narumi&nbsp;2021</p>
     </footer> 
+    <?wp_footer(); ?>
 </body>
 </html>

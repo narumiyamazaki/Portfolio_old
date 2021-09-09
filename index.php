@@ -214,4 +214,7 @@
                ?>
             </div>
         </section>
+        <!--ページ区切りを実装するためのコード。
+        <php wp_link_pages( $args ); ?>
+        -->
     </div>
