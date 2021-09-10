@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<body>
     <!--アニメーション部分-->
     <div class="p-loading">
         <div class="p-loadingAnimation">
