@@ -10,7 +10,7 @@
     <!--ローディング画面後の表示-->
     <header class="l-header">
         <!--header背景画像-->
-        <div class="p-header__backgroundImage">
+        <div <?php post_class('p-header__backgroundImage'); ?>>
             <h1 class="p-header__title">
                 <a href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
             </h1>
@@ -21,7 +21,8 @@
         <!--askneについて-->
         <section id="pagetop" class="p-aboutSite__content">
             <div class="p-aboutSite__backgroundImage">
-                <h2 class="p-aboutSite__heading">Webサイト制作はaskneにお任せください</h2>  
+                <h2 class="p-aboutSite__heading">Webサイト制作はaskneにお任せください</h2>
+                <?php __(' search', 'askne-portfolio' ); ?>
                 <!--LP・・・の部分-->
                 <div class="p-aboutSite__wrapper--top">
                     <div class="p-aboutSite__text--top">
