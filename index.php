@@ -140,7 +140,7 @@
         </section>
         <!--料金表-->
         <section id="price" class="p-price">
-            <h2 class="p-price__heading">料金表</h2>
+            <h2 class="p-price__heading"><span>料金表</span></h2>
             <div class="p-price__backgroundImage">
             <table>
                 <thead class="p-price__table__header--coding">
@@ -218,3 +218,4 @@
         <php wp_link_pages( $args ); ?>
         -->
     </div>
+    <?php get_footer(); ?>

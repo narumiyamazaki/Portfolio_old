@@ -1,8 +1,12 @@
+
+
 // 動きのきっかけとなるアニメーションの名前を定義
 function fadeAnime(){
+    //クラス名を配列で渡す事で複数箇所ふわっを実装
+
     // ふわっ
-    $('.p-service__wrapper').each(function(){ //p-service__wrapperというクラス名が
-      var elemPos = $(this).offset().top-10;//要素より、10px上の
+    $('.p-service__wrapper,.p-work,.p-profile,.p-price,.p-contact').each(function(){ //p-service__wrapperというクラス名が
+      var elemPos = $(this).offset().top-30;//要素より、10px上の
       var scroll = $(window).scrollTop();
       var windowHeight = $(window).height();
       if (scroll >= elemPos - windowHeight){

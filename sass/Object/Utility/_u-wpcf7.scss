@@ -114,3 +114,8 @@
         color: red;
         font-weight: 600;
     }
+
+    /*ajax-loaderをなくす*/
+    div.wpcf7 .ajax-loader {
+        display: none;
+    }
