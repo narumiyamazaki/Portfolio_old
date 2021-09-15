@@ -8,6 +8,26 @@
         </div><!-- #animation -->
     </div><!-- #loading -->
     <!--ローディング画面後の表示-->
+    <!--adminbarをWordPressからのログイン時以外には見えないようにする-->
+    <?php if( is_user_logged_in() ) : ?>
+    <style type="text/css">
+    .l-header {
+    margin-top: 32px;
+    }
+    /*ブラウザ幅が780px以下の場合adminbarの高さが少し高くなるので、マージンを調節*/
+    @media screen and (max-width: 780px) {
+    .l-header {
+        margin-top: 46px;
+        }
+    }
+    /*ブラウザ幅が600px以下の場合adminbarが固定でなくなるので固定*/
+    @media screen and (max-width: 600px) {
+    #wpadminbar {
+        position: fixed !important;
+        }
+    }
+    </style>
+    <?php endif; ?>
     <header class="l-header">
         <!--header背景画像-->
         <div <?php post_class('p-header__backgroundImage'); ?>>
@@ -116,7 +136,7 @@
                     <p class="p-work--introduction">ハンバーガーサイト（デモサイト）</p>
                 </div>
                 <div class="p-work--box--portfolio">
-                    <a class="p-work--link" href="http://askneportfolio.com/"><img class="p-work--image" src="<?php echo esc_url(get_template_directory_uri()."/image/hambureger-site.jpg"); ?>" alt="当サイトのスクリーンショット"></a>
+                    <a class="p-work--link" href="http://askne-portfolio.com/"><img class="p-work--image" src="<?php echo esc_url(get_template_directory_uri()."/image/askne-portfolio.png"); ?>" alt="当サイトのスクリーンショット"></a>
                     <p class="p-work--introduction">当サイト</p>
                 </div>
                 <div class="p-work__backgroundImage"></div>

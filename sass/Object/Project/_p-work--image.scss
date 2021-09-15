@@ -1,6 +1,9 @@
 .p-work--image {
+    height:230px;
+    max-height:460px;
     width: 35rem;
     max-width: 70rem;
+    object-fit: cover;
     @include media(tb) {
         width: 25rem;
         max-width: 27rem;
